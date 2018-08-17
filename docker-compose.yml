@@ -1,0 +1,29 @@
+version: '3'
+services:
+  workspace:
+    build: containers/truffle
+    links:
+      - ganache
+    volumes:
+      - .:/app
+    tty: true
+    environment:
+      NETWORK_NAME: development
+      NETWORK_HOST: ganache
+      NETWORK_PORT: 8545
+      NETWORK_CHAIN_ID: 85
+    networks:
+      - blockchain
+  ganache:
+    build: ./containers/ganache
+    environment:
+      GANACHE_HOST: 0.0.0.0
+      GANACHE_PORT: 8545
+      GANACHE_CHAIN_ID: 85
+    ports:
+      - "8545"
+    networks:
+      - blockchain
+networks:
+  blockchain:
+    driver: "bridge"

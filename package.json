@@ -1,0 +1,21 @@
+{
+  "name": "roulette-sol",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "cleanup": "docker-compose down --rmi all",
+    "compose": "docker-compose up --detach --build workspace ganache",
+    "deploy": "docker-compose exec workspace truffle migrate --reset",
+    "test": "docker-compose exec workspace truffle test",
+    "workspace": "docker-compose exec workspace bash"
+  },
+  "author": "Scott K. Thomas, Jr.",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  }
+}

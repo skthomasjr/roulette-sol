@@ -1,0 +1,42 @@
+[
+  {
+    "address": "0x5c07788394cb8dc5128d314c64fb0e2da92ef3ea",
+    "privKey": "a970cf4eaf03ecfe63aae157c081b24d66fb1e0fd2c0e0b8452f56ef9681e8d5"
+  },
+  {
+    "address": "0x5c077e4a76104c690b23abd6c8848262f8bf0d41",
+    "privKey": "c7b4c759bf52a818dbda1a9866b333466de754230c52b414b0a4b9a1248f7a26"
+  },
+  {
+    "address": "0x5c077e3c40c457265a847ca5eaecd1a8353ac6bd",
+    "privKey": "012fd5035c3d727acde25c00704832247277e200fe4cc525d299ff6d30d39cdb"
+  },
+  {
+    "address": "0x5c07789cbf6fa193c571481fa7b404cb34052f87",
+    "privKey": "5a996225135886b01f1c2e83e2c7e59c83a376b67a1bbdf74ad194522d9c14aa"
+  },
+  {
+    "address": "0x5c0778eeeaf18e68e5b46f89b4a23e23bc96564e",
+    "privKey": "c93e608d085b5514c60dfc97b9aebdfa0401e256979ea25715efb9d38caee61c"
+  },
+  {
+    "address": "0x5c0773e7e360554e8e3a0411994be658e1352d53",
+    "privKey": "d2c53b53a66e8d79e34d82fa3e828c550b83bf5f7fa4bba99ace292d39135738"
+  },
+  {
+    "address": "0x5c07733527f1d5d955ebf0530bf177227c9e6a55",
+    "privKey": "7e933e89a713d65acdac6752b52014f853ef263d95a28eafdf82fd4a5b72e130"
+  },
+  {
+    "address": "0x5c0772a27373fbb9fe21b7e4ea3bf5704b91ce5a",
+    "privKey": "40eab366b4a823e3e290ddb16d0eeabc1ea2a07ae06d5ec0d10c060020f26ac4"
+  },
+  {
+    "address": "0x5c077db2d102a38a38cd4798d02565aa75d426f3",
+    "privKey": "a2bb508a3587987375b6e8b72da85389a686bb2e78d873740c9dd8ed79e2527f"
+  },
+  {
+    "address": "0x5c0774d031192fdcc02d7b658816e7fc2e32f6a8",
+    "privKey": "91f08dd48feaceec6ea6eef73c88bc3b1b346e9a9cc4bd6b008ce0caaf2f0860"
+  }
+]
